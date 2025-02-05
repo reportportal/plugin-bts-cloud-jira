@@ -22,7 +22,6 @@ import com.epam.reportportal.extension.jira.event.handler.plugin.PluginLoadedEve
 import com.epam.reportportal.extension.jira.info.PluginInfoProvider;
 import com.epam.ta.reportportal.dao.IntegrationRepository;
 import com.epam.ta.reportportal.dao.IntegrationTypeRepository;
-
 import java.util.HashMap;
 import java.util.Map;
 

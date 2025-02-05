@@ -20,9 +20,9 @@ import com.atlassian.jira.rest.client.api.domain.User;
 import com.atlassian.jira.rest.client.internal.async.AbstractAsynchronousRestClient;
 import com.atlassian.jira.rest.client.internal.json.UsersJsonParser;
 import io.atlassian.util.concurrent.Promise;
+import jakarta.annotation.Nullable;
+import jakarta.ws.rs.core.UriBuilder;
 import java.net.URI;
-import javax.annotation.Nullable;
-import javax.ws.rs.core.UriBuilder;
 
 /**
  * @author <a href="mailto:andrei_piankouski@epam.com">Andrei Piankouski</a>

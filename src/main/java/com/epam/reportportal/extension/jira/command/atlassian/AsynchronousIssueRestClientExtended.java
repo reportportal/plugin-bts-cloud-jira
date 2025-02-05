@@ -8,9 +8,8 @@ import com.atlassian.jira.rest.client.api.domain.CimProject;
 import com.atlassian.jira.rest.client.internal.async.AsynchronousIssueRestClient;
 import com.google.common.base.Joiner;
 import io.atlassian.util.concurrent.Promise;
-
-import javax.annotation.Nullable;
-import javax.ws.rs.core.UriBuilder;
+import jakarta.annotation.Nullable;
+import jakarta.ws.rs.core.UriBuilder;
 import java.net.URI;
 
 /**

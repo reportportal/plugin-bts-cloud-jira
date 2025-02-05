@@ -16,7 +16,6 @@
 package com.epam.reportportal.extension.jira.command.utils;
 
 import com.epam.ta.reportportal.entity.integration.IntegrationParams;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;

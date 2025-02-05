@@ -20,13 +20,12 @@ import static com.epam.reportportal.rules.exception.ErrorType.UNABLE_INTERACT_WI
 
 import com.epam.reportportal.extension.CommonPluginCommand;
 import com.epam.reportportal.extension.jira.command.utils.CloudJiraProperties;
-import com.epam.reportportal.rules.exception.ReportPortalException;
 import com.epam.reportportal.rules.exception.ErrorType;
+import com.epam.reportportal.rules.exception.ReportPortalException;
 import com.google.common.collect.Maps;
+import java.util.Map;
 import org.apache.commons.collections.MapUtils;
 import org.jasypt.util.text.BasicTextEncryptor;
-
-import java.util.Map;
 
 
 /**

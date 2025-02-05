@@ -1,9 +1,29 @@
 package com.epam.reportportal.extension.jira.command.atlassian;
 
-import com.atlassian.jira.rest.client.api.*;
-import com.atlassian.jira.rest.client.internal.async.*;
-
-import javax.ws.rs.core.UriBuilder;
+import com.atlassian.jira.rest.client.api.AuditRestClient;
+import com.atlassian.jira.rest.client.api.ComponentRestClient;
+import com.atlassian.jira.rest.client.api.GroupRestClient;
+import com.atlassian.jira.rest.client.api.IssueRestClient;
+import com.atlassian.jira.rest.client.api.JiraRestClient;
+import com.atlassian.jira.rest.client.api.MetadataRestClient;
+import com.atlassian.jira.rest.client.api.MyPermissionsRestClient;
+import com.atlassian.jira.rest.client.api.ProjectRestClient;
+import com.atlassian.jira.rest.client.api.ProjectRolesRestClient;
+import com.atlassian.jira.rest.client.api.SearchRestClient;
+import com.atlassian.jira.rest.client.api.SessionRestClient;
+import com.atlassian.jira.rest.client.api.UserRestClient;
+import com.atlassian.jira.rest.client.api.VersionRestClient;
+import com.atlassian.jira.rest.client.internal.async.AsynchronousComponentRestClient;
+import com.atlassian.jira.rest.client.internal.async.AsynchronousGroupRestClient;
+import com.atlassian.jira.rest.client.internal.async.AsynchronousMetadataRestClient;
+import com.atlassian.jira.rest.client.internal.async.AsynchronousProjectRestClient;
+import com.atlassian.jira.rest.client.internal.async.AsynchronousProjectRolesRestClient;
+import com.atlassian.jira.rest.client.internal.async.AsynchronousSearchRestClient;
+import com.atlassian.jira.rest.client.internal.async.AsynchronousSessionRestClient;
+import com.atlassian.jira.rest.client.internal.async.AsynchronousUserRestClient;
+import com.atlassian.jira.rest.client.internal.async.AsynchronousVersionRestClient;
+import com.atlassian.jira.rest.client.internal.async.DisposableHttpClient;
+import jakarta.ws.rs.core.UriBuilder;
 import java.io.IOException;
 import java.net.URI;
 

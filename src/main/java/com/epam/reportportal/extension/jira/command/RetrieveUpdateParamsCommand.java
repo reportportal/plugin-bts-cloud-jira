@@ -19,10 +19,9 @@ package com.epam.reportportal.extension.jira.command;
 import com.epam.reportportal.extension.CommonPluginCommand;
 import com.epam.reportportal.extension.jira.command.utils.CloudJiraProperties;
 import com.google.common.collect.Maps;
-import org.jasypt.util.text.BasicTextEncryptor;
-
 import java.util.Map;
 import java.util.Optional;
+import org.jasypt.util.text.BasicTextEncryptor;
 
 /**
  * @author <a href="mailto:pavel_bortnik@epam.com">Pavel Bortnik</a>

@@ -15,11 +15,11 @@
  */
 package com.epam.reportportal.extension.jira.event.plugin;
 
+import static java.util.Optional.ofNullable;
+
 import com.epam.reportportal.extension.event.PluginEvent;
 import com.epam.reportportal.extension.jira.event.EventHandlerFactory;
 import org.springframework.context.ApplicationListener;
-
-import static java.util.Optional.ofNullable;
 
 /**
  * @author <a href="mailto:ivan_budayeu@epam.com">Ivan Budayeu</a>
